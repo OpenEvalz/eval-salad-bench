@@ -1,0 +1,41 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "salad-bench",
+    "slug": "salad-bench",
+    "title": "SALAD-Bench: Hierarchical Safety Benchmark (Multiple-Choice)",
+    "group": "",
+    "tags": [
+      "Safety"
+    ],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/salad-bench",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "salad_bench_mcq",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
